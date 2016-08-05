@@ -1,0 +1,299 @@
+html,
+body 
+{
+    height: 100%;
+    padding-top: 50px;
+}
+
+.noselection
+{
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#wrap 
+{
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+#footer 
+{
+    height: 60px;
+    background-color: #f5f5f5;
+}
+
+.container .text-muted 
+{
+    margin: 20px 0;
+}
+
+#editor 
+{
+    max-height: 250px;
+    height: 250px;
+    background-color: white;
+    border-collapse: separate; 
+    border: 1px solid rgb(204, 204, 204); 
+    padding: 4px; 
+    box-sizing: content-box; 
+    -webkit-box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px 0px inset; 
+    box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px 0px inset;
+    border-top-right-radius: 3px; border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px; border-top-left-radius: 3px;
+    overflow: scroll;
+    outline: none;
+}
+
+.dropdown-menu a 
+{
+    cursor: pointer;
+}
+
+.youtube_video_submit
+{
+
+    border: 2px solid #cccccc; 
+    border-radius: 4px; 
+    width: 564px; 
+    height: 319px; 
+    display: block;
+
+}
+.playyoutubevideo
+{
+    border: 3px solid #cccccc; 
+    border-radius: 5px; 
+    display: block;
+    //height: 100%;
+    //width: 100%;
+}
+
+.playyoutube_video_submit_embed
+{
+    border: 1px solid black; 
+    border-radius: 2px;
+}
+@-moz-document url-prefix() 
+{
+    .playyoutube_video_submit_embed
+    { 
+        border: 0px;
+    }
+}
+/*
+@-moz-document url-prefix() 
+{
+    .youtube_video_submit
+    { 
+        height: 317px; 
+        width: 562px;
+    }
+}
+*/
+.youtube_video_submit_embed
+{
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.playinfo
+{
+    vertical-align: top;
+}
+
+.playdescription
+{
+    -o-text-overflow: ellipsis;  
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 60px;
+}
+
+.playscore
+{
+    text-align: center;
+}
+
+.playscorebar 
+{
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+
+.playscorebarnum 
+{
+    -webkit-transform: rotate(90deg); 
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+
+.voterot 
+{
+    -webkit-transform: rotate(180deg); 
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+
+.hpvoteup
+{
+    margin-top: 30px;
+    width: 150px; 
+    height: 150px; 
+    background-color: #428bca;
+    border-radius: 1em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hpvotedown
+{
+    margin-top: 10px;
+    width: 150px; 
+    height: 150px; 
+    background-color: #d9534f;
+    border-radius: 1em;
+    text-align: center;
+    cursor: pointer;
+}
+
+#the_lights
+{
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    margin:0;
+    padding:0; 
+    display: none;
+    pointer-events: none;
+    z-index: 999;
+}
+
+#standout
+{
+    background-color: transparent;
+    position: relative;
+    z-index: 1000;
+}
+
+#watermark
+{
+    position: fixed;
+    width: 90%;
+    margin-left: 5%;
+    height: 100%;
+    z-index: 999999;
+    background: url('/img/watermark_property.png') center center;
+    top: 0px;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    background-size: 100%;
+}
+
+.commentavatar
+{
+    width: 64px;
+    height: 64px;
+    background-position: center;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+}
+
+.commentbox
+{
+    background-color: white;
+    border-color: #dddddd;
+    padding: 5px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px;
+    margin-bottom: 15px;
+}
+
+.commentbox:hover
+{
+    background-color: #f5f5f5;
+}
+
+.commenttext
+{
+    padding-left: 10px;
+    width: 100%;
+}
+
+.commentli
+{
+    list-style-type: none;
+    margin: 0px 0px 0px 20px;
+    padding: 0;
+}
+
+
+.profileavatar
+{
+    width: 90px;
+    height: 90px;
+    background-position: center;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+}
+
+.playchamp
+{
+    height: 32px; 
+    width: 32px; 
+    position: relative; 
+    margin-top: -8px;
+}
+
+
+.playchamp_home
+{
+    height: 20px; 
+    width: 20px; 
+    position: relative; 
+    margin-top: -4px;
+    margin-right: 5px;
+}
+
+.containercover
+{
+    background-color: white; 
+    padding-top: 10px; 
+    border-radius: 5px; 
+    margin-bottom: 15px; 
+    padding-bottom: 10px;
+}
+
+/*
+@font-face
+{
+    font-family: frizquadrata;
+    src: url('/dist/frizquadrata.tff');
+}
+*/
+
+#overlay
+{
+    background: url('/img/covers/overlay.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover; 
+    opacity: 0.3; 
+    position: fixed; 
+    width: 100%; 
+    height: 100%; 
+    z-index: -1; 
+    margin-top: -100px;
+}
