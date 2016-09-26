@@ -3,6 +3,13 @@ Website with latest League of Legends plays
 
 **Archived project from 2014.**
 
+## Technologies
+* PHP (Laravel)
+* MySQL 
+* HTML (Bootstrap) 
+* CSS 
+* JavaScript (jQuery)
+
 # Screenshots
 
 ![](preview/1.png)
