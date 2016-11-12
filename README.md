@@ -1,5 +1,6 @@
 # PLAYS.GG
-Website with latest League of Legends plays
+Website where you can watch daily plays from players all around the world. It features Hall of Fame section, contests, plays, search, profiles, medals, comments, avatars and much more.
+
 
 **Archived project from 2014.**
 
