@@ -4,7 +4,7 @@ Website where you can watch daily plays from players all around the world. It fe
 
 **Archived project from 2014.**
 
-## Technologies
+## Technology stack
 * PHP (Laravel)
 * MySQL 
 * HTML (Bootstrap) 
