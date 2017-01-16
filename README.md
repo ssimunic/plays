@@ -11,6 +11,12 @@ League of Legends portal where you can watch daily plays from players all around
 * CSS 
 * JavaScript (jQuery)
 
+# Promotional Trailer
+
+Click below to watch on YouTube. 
+
+[![](https://img.youtube.com/vi/dmERWWjCJl0/0.jpg)](https://www.youtube.com/watch?v=dmERWWjCJl0)
+
 # Screenshots
 
 ![](preview/1.png)
