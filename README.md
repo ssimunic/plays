@@ -19,30 +19,46 @@ Click below to watch on YouTube.
 
 # Screenshots
 
-![](preview/1.png)
-
-![](preview/2.png)
-
-![](preview/3.jpg)
-
-![](preview/4.jpg)
-
-![](preview/5.png)
-
+## Home
 ![](preview/6.jpg)
 
+## Profile view
+![](preview/3.jpg)
+
+## Play video watch (cinema mode)
+![](preview/4.jpg)
+
+## Awards
+![](preview/5.png)
+
+## Profile settings
 ![](preview/7.png)
 
+## Play statistics
+![](preview/14.png)
+
+## Search plays
 ![](preview/8.jpg)
 
+## Submit new play
 ![](preview/9.jpg)
 
+## Avatars
+![](preview/1.png)
+
+## Live comments
+![](preview/2.png)
+
+## Admin dashboard
 ![](preview/10.png)
 
+## Plays administration
 ![](preview/11.png)
 
+## Users administration
 ![](preview/12.png)
 
+## News administration
 ![](preview/13.png)
 
-![](preview/14.png)
+
